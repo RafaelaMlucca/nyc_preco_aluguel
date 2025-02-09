@@ -1,12 +1,12 @@
-# 📊 Previsão de Preços de Imóveis - Nova York
+#  Previsão de Preços de Imóveis - Nova York
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA), modelagem estatística e machine learning para prever preços de imóveis em Nova York. O trabalho foi desenvolvido no **Google Colab** e utiliza modelos de regressão linear, regressão logística e Random Forest.
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
-### **1️⃣ Acesse o Google Colab**
+### **Acesse o Google Colab**
 O projeto foi desenvolvido no Google Colab. Para abrir o notebook, basta clicar no link abaixo:
 
 📎 **[Abrir Notebook no Colab](https://colab.research.google.com/)**
@@ -15,7 +15,7 @@ Caso esteja rodando localmente, siga os passos abaixo.
 
 ---
 
-## 📥 Instalação das Dependências
+##  Instalação das Dependências
 
 Para executar o projeto, instale todas as bibliotecas necessárias:
 
@@ -36,10 +36,10 @@ Se estiver no Google Colab, basta rodar a célula de instalação no início do 
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
-📁 PrevisaoPrecosNY/
+ PrevisaoPrecosNY/
 │── 📜 README.md                 # Documentação do projeto
 │── 📜 requirements.txt           # Dependências do projeto
 │── 📜 PrevisaoAlugueisNY.ipynb   # Notebook com análise e modelagem
@@ -50,7 +50,7 @@ Se estiver no Google Colab, basta rodar a célula de instalação no início do 
 
 ---
 
-## 🔎 Análise Exploratória (EDA)
+##  Análise Exploratória (EDA)
 
 No notebook, realizamos:
 - **Análise descritiva das variáveis**: distribuição, estatísticas e relação com o preço.
@@ -59,7 +59,7 @@ No notebook, realizamos:
 
 ---
 
-## 🤖 Modelos Treinados
+##  Modelos Treinados
 
 Utilizamos três modelos de Machine Learning para prever os preços dos imóveis:
 
@@ -71,7 +71,7 @@ Utilizamos três modelos de Machine Learning para prever os preços dos imóveis
 
 ---
 
-## 🔮 Como Fazer Previsões
+##  Como Fazer Previsões
 
 Para carregar um modelo treinado e fazer previsões:
 
@@ -93,12 +93,12 @@ novo_imovel = pd.DataFrame({
 
 # Fazer a previsão
 previsao = modelo.predict(novo_imovel)
-print(f"📌 Preço previsto: ${previsao[0]:.2f}")
+print(f" Preço previsto: ${previsao[0]:.2f}")
 ```
 
 ---
 
-## 📌 Conclusões
+##  Conclusões
 
 - **Os bairros de Manhattan e Brooklyn apresentam os preços mais elevados**.
 - **A disponibilidade anual e o número mínimo de noites impactam no valor do aluguel**.
@@ -107,7 +107,7 @@ print(f"📌 Preço previsto: ${previsao[0]:.2f}")
 
 ---
 
-## 📩 Contato
+## Contato
 Caso tenha dúvidas ou sugestões, entre em contato:  
-📧 **seu-email@example.com**  
-📌 [Seu LinkedIn](https://www.linkedin.com/)
+📧 **rafaelalucca@usp.br**  
+
