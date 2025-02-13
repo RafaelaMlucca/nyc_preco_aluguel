@@ -103,7 +103,7 @@ print(f" Preço previsto: ${previsao[0]:.2f}")
 - **Os bairros de Manhattan e Brooklyn apresentam os preços mais elevados**.
 - **A disponibilidade anual e o número mínimo de noites impactam no valor do aluguel**.
 - **Palavras como "luxury", "loft" e "apartment" são comuns em imóveis de alto valor**.
-- **Random Forest apresentou o melhor desempenho na previsão dos preços**.
+- **Regressão Linear Simples apresentou o melhor desempenho na previsão dos preços**.
 
 ---
 
